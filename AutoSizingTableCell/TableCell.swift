@@ -9,4 +9,6 @@
 import UIKit
 
 class TableCell: UITableViewCell {
+
+    @IBOutlet weak var lblText: UILabel!
 }

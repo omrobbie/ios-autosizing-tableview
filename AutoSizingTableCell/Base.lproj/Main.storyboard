@@ -28,7 +28,21 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q2u-ii-Pi3">
                                                     <rect key="frame" x="20" y="11" width="374" height="181"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytr-60-oPA">
+                                                            <rect key="frame" x="8" y="8" width="358" height="165"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
                                                     <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="ytr-60-oPA" secondAttribute="trailing" constant="8" id="0Vw-IS-CyR"/>
+                                                        <constraint firstItem="ytr-60-oPA" firstAttribute="top" secondItem="q2u-ii-Pi3" secondAttribute="top" constant="8" id="ZzN-LG-08C"/>
+                                                        <constraint firstAttribute="bottom" secondItem="ytr-60-oPA" secondAttribute="bottom" constant="8" id="bJe-Fg-EJ9"/>
+                                                        <constraint firstItem="ytr-60-oPA" firstAttribute="leading" secondItem="q2u-ii-Pi3" secondAttribute="leading" constant="8" id="nqT-zq-xZh"/>
+                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -38,6 +52,9 @@
                                                 <constraint firstItem="q2u-ii-Pi3" firstAttribute="leading" secondItem="Jxf-tg-rj5" secondAttribute="leadingMargin" id="xRO-d1-oNy"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblText" destination="ytr-60-oPA" id="JeM-Ly-uUJ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
