@@ -13,6 +13,7 @@
 		FCE85659244AC8C100E9A336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE85657244AC8C100E9A336 /* Main.storyboard */; };
 		FCE8565B244AC8C200E9A336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE8565A244AC8C200E9A336 /* Assets.xcassets */; };
 		FCE8565E244AC8C200E9A336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE8565C244AC8C200E9A336 /* LaunchScreen.storyboard */; };
+		FCE85666244ACAAA00E9A336 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE85665244ACAAA00E9A336 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FCE8565A244AC8C200E9A336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE8565D244AC8C200E9A336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCE8565F244AC8C200E9A336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE85665244ACAAA00E9A336 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FCE85651244AC8C100E9A336 /* AppDelegate.swift */,
 				FCE85653244AC8C100E9A336 /* SceneDelegate.swift */,
 				FCE85655244AC8C100E9A336 /* ViewController.swift */,
+				FCE85665244ACAAA00E9A336 /* TableCell.swift */,
 				FCE85657244AC8C100E9A336 /* Main.storyboard */,
 				FCE8565A244AC8C200E9A336 /* Assets.xcassets */,
 				FCE8565C244AC8C200E9A336 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				FCE85656244AC8C100E9A336 /* ViewController.swift in Sources */,
 				FCE85652244AC8C100E9A336 /* AppDelegate.swift in Sources */,
+				FCE85666244ACAAA00E9A336 /* TableCell.swift in Sources */,
 				FCE85654244AC8C100E9A336 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
